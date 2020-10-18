@@ -6,21 +6,11 @@ Echomantra is a Python proyect to deal with bad words and vibes at the house/off
 
 Echomantra is a project to be used on top of raspberry pi 0 
 
-```bash
-pip install foobar
-```
+TODO
 
 ## Usage
 
 TODO
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
