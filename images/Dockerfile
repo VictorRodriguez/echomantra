@@ -10,5 +10,6 @@ RUN cd vosk-api/python/example && wget https://alphacephei.com/kaldi/models/vosk
 RUN cd vosk-api/python/example && unzip vosk-model-small-en-us-0.3.zip
 RUN cd vosk-api/python/example && mv vosk-model-small-en-us-0.3 model
 
-CMD cd vosk-api/python/example && python3 ./test_simple.py test.wav > result.json && cat result.json
+ENV FILE=test.wav
+CMD echo "$FILE" && cd vosk-api/python/example && python3 ./test_simple.py $FILE > result.json && cat result.json
 
